@@ -9,8 +9,12 @@
 
 <!-- Home Page -->
 
+
+
 <html>
 <html lang="en">
+
+<!-- Head --> 
 
 <head>
 	<meta charset="UTF-8"/>
@@ -20,48 +24,166 @@
 	fivestudios, website, corey ervin, bartek godzwon, startup, toronto, jobs, intern"/>
 	<meta name="author" content="Corey Ervin">
 	<title>Hello, I'm Corey</title>
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="css/flexboxgrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
 </head>
+
+<!-- Body --> 
 
 <body>
 
-	<body>
-	<header>
+	<!-- Header -->
+	<header id="main-header">
 		<div class="container">
-			<div id="branding">
-				<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-				<h2> <span class="highlight"> Made By </span> Corey</h2>
-			</div> 
-			<nav>
-				<ul>
-					<!-- Top tabs -->
-					<li class="current"><a href="home.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+			<div class="row end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<h1><span class="primary-text">Made By </span>Corey</h1>
+				</div>
+				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+					<nav id="navbar">
+						<ul>
+							<li class="current"><a href="index.html">Home</a></li>
+							<li><a href="about.html">About Me</a></li>
+							<li><a href="projects.html">Projects</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		</div>
 	</header>
-	
 
-	<!-- Main viewer -->
+	<!-- Showcase -->
 	<section id="showcase">
 		<div class="container">
-			<h1>Hi, I'm Corey</h1>
+			<div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+				<div class="col-xs-10 col-sm-10 col-md-10 col-lg-7 showcase-content">
+					<h1>Hi, I'm<span class="primary-text"> Corey</span></h1>
+					<p>a software engineer focused on building beautiful interfaces & experiences</p>
+				</div>
+			</div>
 		</div>
 	</section>
 
 
+	<!-- Features -->
+	<section id="features">
+		<div class="container">
+			<div class="row center-xs center-sm center-md center-lg">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+					<h2>Skills</h2>
+					<p></p>
+
+					<!-- ICON ROW 1 -->
+
+					<div class="row center-xs center-sm center-md center-lg">
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<i class="fa fa-code"></i><br>
+							<h4>Object-Oriented Programming</h4>
+							<p>Java | Python | C | Matlab | Swift</p>
+						</div>
+
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<i class="fa fa-code-fork"></i><br>
+							<h4>Tools</h4>
+							<p>Git & Github | Xcode | Bash </p>
+						</div>
+
+						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+							<i class="fa fa-question-circle-o"></i><br>
+							<h4>Functional & Logical Languages</h4>
+							<p>Haskell | Racket | Scheme | Prolog</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- INFO SECTION --> 
+	<section id="info">
+		<div class="container">
+			<div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"">
+					<nav id="infolink">
+						<h2>Experience</h2>
+						<ul>
+							<li><a href="http://fivestudios.ca" target="_blank">Director of Software Engineering - FIVE Studios</a></li>
+							<li><a href="https://support.apple.com" target="_blank">Genius - Apple</a></li>
+							<li><a href="https://support.apple.com" target="_blank">Technical Support - Apple</a></li>
+							<li><a href="https://support.apple.com" target="_blank">Sales - Apple</a></li>
+							<li><a href="https://www.phigam.org" target="_blank">VP and Treasurer - Phi Gamma Delta</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"">
+					<nav id="infolink">
+						<ul>
+							<li><a href="websiteresume.pdf" style="color: white"; target="_top">View My Resume</a></li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- COMPANY --> 
+	<section id="company">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 center-xs">
+					<h4>Let's Connect</h4>
+					<ul>
+						<li><i class="fa fa-envelope"</i> <a href="mailto:corey@ervin.ca?Subject=Website%20Connection" style="color: white"; target="_top"> corey@ervin.ca</a></i></li>
+					</ul>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 center-xs">
+					<h4></h4>
+					<p></p>
+				</div>
+
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 center-xs">
+					<h4>Donate Bitcoin?</h4>
+					<ul>
+						<li><i class="fa fa-btc"></i> 32mmQvUr6CXPNj6SppcTcqYMtmjd96tfA4</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
-	<!-- Bottom page footer -->
-	<footer>
-		<p>Made by Corey, Copyright &copy; 2017</p>
+	<!-- FOOTER --> 
+	<footer id="main-footer">
+		<div class="container">
+			<div class="row center-xs center-sm center-md center-lg">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p>Copyright &copy; 2017 | Made By Corey</p>
+				</div>
+				<div class="col-md-4">
+					<a href="https://www.linkedin.com/in/coreyervin/" target="_blank">
+						<i class="sm fa fa-linkedin"></i>
+					</a>
+					<a href="https://www.instagram.com/coreyervin/?hl=en" target="_blank">
+						<i class="sm fa fa-instagram"></i>
+					</a>
+					<a href="https://www.facebook.com/corey.ervin/" target="_blank">
+						<i class="sm fa fa-facebook"></i>
+					</a>
+				</div>
+			</div>
+		</div>
 	</footer>
 
 
+
 </body>
-
-
 
 </html>
